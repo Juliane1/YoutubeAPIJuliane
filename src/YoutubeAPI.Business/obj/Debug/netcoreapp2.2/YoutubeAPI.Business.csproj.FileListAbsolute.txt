@@ -8,3 +8,13 @@ C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Busines
 C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Business\obj\Debug\netcoreapp2.2\YoutubeAPI.Business.dll
 C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Business\obj\Debug\netcoreapp2.2\YoutubeAPI.Business.pdb
 C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Business\obj\Debug\netcoreapp2.2\YoutubeAPI.Business.csprojAssemblyReference.cache
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\bin\Debug\netcoreapp2.2\YoutubeAPI.Business.deps.json
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\bin\Debug\netcoreapp2.2\YoutubeAPI.Business.runtimeconfig.json
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\bin\Debug\netcoreapp2.2\YoutubeAPI.Business.runtimeconfig.dev.json
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\bin\Debug\netcoreapp2.2\YoutubeAPI.Business.dll
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\bin\Debug\netcoreapp2.2\YoutubeAPI.Business.pdb
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\obj\Debug\netcoreapp2.2\YoutubeAPI.Business.csprojAssemblyReference.cache
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\obj\Debug\netcoreapp2.2\YoutubeAPI.Business.AssemblyInfoInputs.cache
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\obj\Debug\netcoreapp2.2\YoutubeAPI.Business.AssemblyInfo.cs
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\obj\Debug\netcoreapp2.2\YoutubeAPI.Business.dll
+C:\Users\Juliane\Documents\Projects\YoutubeAPIJuliane\src\YoutubeAPI.Business\obj\Debug\netcoreapp2.2\YoutubeAPI.Business.pdb
