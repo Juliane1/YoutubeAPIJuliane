@@ -1,0 +1,13 @@
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\bin\Debug\netcoreapp2.2\YoutubeAPI.Data.deps.json
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\bin\Debug\netcoreapp2.2\YoutubeAPI.Data.runtimeconfig.json
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\bin\Debug\netcoreapp2.2\YoutubeAPI.Data.runtimeconfig.dev.json
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\bin\Debug\netcoreapp2.2\YoutubeAPI.Data.dll
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\bin\Debug\netcoreapp2.2\YoutubeAPI.Data.pdb
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\bin\Debug\netcoreapp2.2\YoutubeAPI.Business.dll
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\bin\Debug\netcoreapp2.2\YoutubeAPI.Business.pdb
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\obj\Debug\netcoreapp2.2\YoutubeAPI.Data.csprojAssemblyReference.cache
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\obj\Debug\netcoreapp2.2\YoutubeAPI.Data.AssemblyInfoInputs.cache
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\obj\Debug\netcoreapp2.2\YoutubeAPI.Data.AssemblyInfo.cs
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\obj\Debug\netcoreapp2.2\YoutubeAPI.Data.csproj.CopyComplete
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\obj\Debug\netcoreapp2.2\YoutubeAPI.Data.dll
+C:\Users\Juliane\Documents\Projects\youtubeAPI\YouTubeAPI\src\YoutubeAPI.Data\obj\Debug\netcoreapp2.2\YoutubeAPI.Data.pdb
