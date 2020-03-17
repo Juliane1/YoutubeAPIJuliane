@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Data\\YoutubeAPI.Data.csproj": {}
+    "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Data\\YoutubeAPI.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj": {
+    "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj",
         "projectName": "YoutubeAPI.Business",
-        "projectPath": "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj",
+        "projectPath": "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj",
         "packagesPath": "C:\\Users\\Juliane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Business\\obj\\",
+        "outputPath": "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Data\\YoutubeAPI.Data.csproj": {
+    "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Data\\YoutubeAPI.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Data\\YoutubeAPI.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Data\\YoutubeAPI.Data.csproj",
         "projectName": "YoutubeAPI.Data",
-        "projectPath": "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Data\\YoutubeAPI.Data.csproj",
+        "projectPath": "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Data\\YoutubeAPI.Data.csproj",
         "packagesPath": "C:\\Users\\Juliane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Data\\obj\\",
+        "outputPath": "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -110,8 +110,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj": {
-                "projectPath": "C:\\Users\\Juliane\\Documents\\Projects\\youtubeAPI\\YouTubeAPI\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj"
+              "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj": {
+                "projectPath": "C:\\Users\\Juliane\\Documents\\Projects\\YoutubeAPIJuliane\\src\\YoutubeAPI.Business\\YoutubeAPI.Business.csproj"
               }
             }
           }
