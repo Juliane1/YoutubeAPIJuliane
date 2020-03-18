@@ -10,7 +10,7 @@ namespace YoutubeAPI.Business.Models
 
         public SearchType Type { get; set; }
         public string Description { get; set; }
-        public  DateTime? PublishedAt { get; set; }
+        public DateTime? PublishedAt { get; set; }
 
         public Guid UserId { get; set; }
 

@@ -1,11 +1,6 @@
 ﻿using AutoMapper;
-using Google.Apis.Services;
-using Google.Apis.YouTube.v3;
-using Google.Apis.YouTube.v3.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using YoutubeApi.Api.Extensions;
@@ -73,7 +68,7 @@ namespace YoutubeApi.Api.Controllers
         {
             var favorite = this.mapper.Map<Favorite>(searchViewModel);
             await this.favoriteService.SaveFavoriteAsync(favorite);
-           
+
             return RedirectToAction(nameof(Index));
         }
 
@@ -83,6 +78,16 @@ namespace YoutubeApi.Api.Controllers
             await this.favoriteService.RemoveFavorite(id);
             return RedirectToAction(nameof(Index));
         }
+
+
+        [HttpGet]
+        public IActionResult Back()
+        {
+            HttpContext.Session.Remove(Constants.SEARCHES);
+            HttpContext.Session.Remove(Constants.SEARCH);
+            return RedirectToAction(nameof(Index));
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,7 +1,5 @@
 ﻿using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
-using Microsoft.AspNetCore.Http;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using YoutubeAPI.Business.Enums;
@@ -68,6 +66,7 @@ namespace YoutubeAPI.Business.Services
             var allfavorites = await this.favoriteRepository.List(term);
             allfavorites.ForEach(x => x.IsFavorite = true);
             var favoritesIds = allfavorites.Select(x => x.Id);
+
             pagination.Favorites.RemoveAll(x => favoritesIds.Contains(x.Id));
             pagination.Favorites.AddRange(allfavorites);
 

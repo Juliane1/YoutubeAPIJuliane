@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using YoutubeAPI.Business.Interfaces;
 using YoutubeAPI.Business.Models;
-
+using YoutubeAPI.Business.Util;
 
 namespace YoutubeAPI.Business.Services
 {
@@ -11,8 +11,9 @@ namespace YoutubeAPI.Business.Services
         private readonly IFavoriteRepository favoriteRepository;
         private readonly IUserService userService;
         private readonly IHttpContextAccessor httpContextAccessor;
+        private ISession session => httpContextAccessor.HttpContext.Session;
 
-        public FavoriteService( IFavoriteRepository favoriteRepository, IUserService userService, IHttpContextAccessor httpContextAccessor)
+        public FavoriteService(IFavoriteRepository favoriteRepository, IUserService userService, IHttpContextAccessor httpContextAccessor)
         {
             this.favoriteRepository = favoriteRepository;
             this.userService = userService;
@@ -28,7 +29,7 @@ namespace YoutubeAPI.Business.Services
         {
             //to-do validate and error notify
 
-            var user = httpContextAccessor.HttpContext.User.Identity.AuthenticationType;
+            var user = this.session.GetString(Constants.USER);
             var entity = await this.userService.GetUserByEmail(user);
             favorite.User = entity;
 

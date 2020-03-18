@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,16 +24,20 @@ namespace YoutubeAPI.Data.Repositories
 
         public async Task Create(Favorite favorite)
         {
-            this.context.Favorites.Add(favorite);
-            await this.context.SaveChangesAsync();
+            var user = await this.context.Favorites.FirstOrDefaultAsync(x => x.Id.Equals(favorite.Id));
+            if(user is null)
+            {
+                this.context.Favorites.Add(favorite);
+                await this.context.SaveChangesAsync();
+            }
         }
 
         public async Task<List<Favorite>> List(string term)
         {
-            string email=  this.session.GetString(Constants.USER);
+            string email = this.session.GetString(Constants.USER);
             var favoritos = new List<Favorite>();
 
-            if(string.IsNullOrEmpty(term))
+            if (string.IsNullOrEmpty(term))
             {
                 favoritos = await this.context.Favorites.AsNoTracking().Where(x => x.User.Email.Equals(email)).ToListAsync();
             }

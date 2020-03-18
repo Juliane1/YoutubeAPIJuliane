@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using YoutubeAPI.Business.Interfaces;
 using YoutubeAPI.Business.Models;
 
@@ -22,7 +21,7 @@ namespace YoutubeAPI.Business.Services
                 Email = email
             };
 
-            return  await this.userRepository.CreateOrGet(user);
+            return await this.userRepository.CreateOrGet(user);
         }
     }
 }
